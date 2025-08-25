@@ -1,5 +1,7 @@
+import Layout from "./layout"
 function Home(){
     return(
+        
         <section>
             <div style={{margin:"5%", textAlign:"center", padding:"5%", borderRadius:"10px"}}>
                 <h2>Welcome to
@@ -56,8 +58,8 @@ that often thrive in environments of economic vulnerability.
 </h2> 
 </div>
 
-
-<h1>Our Commitment</h1>
+<div style={{margin:"5%", textAlign:"center", padding:"5%", borderRadius:"10px"}}>
+    <h1>Our Commitment</h1>
 
 <h2>At SASOPSBIZ Foundation, we are committed to:</h2>
 
@@ -74,19 +76,23 @@ entrepreneurial skills needed in a changing economy.</h2>
     - Community Transformation – Partnering with stakeholders to drive holistic
 development and social impact.
 </h2>
+</div>
 
-<h1>Our Vision</h1>
+<div style={{margin:"5%", textAlign:"center", padding:"5%", borderRadius:"10px"}}>
+    <h1>Our Vision</h1>
 
 <h2>A South Africa where every individual—regardless of background—has the opportunity to
 achieve economic independence, live free from violence, and contribute to the growth and
 well-being of their communities.</h2>
 
-<h1>Join Us in Building a Future of Dignity and Hope</h1>
+<h1>Join Us in Building a Future of Dignity and Hope</h1><br></br>
 
 <h2>Your support can make a real difference. Whether through partnership, volunteering, or
 donations, you can help us expand our reach and change more lives. Together, we can break
 barriers, create opportunities, and build safer, more inclusive communities for women,
 children, and generations to come.</h2>
+</div>
+
             
         </section>
 
