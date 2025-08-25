@@ -1,12 +1,11 @@
-import Layout from "./layout"
+
 function Home(){
     return(
         
         <section>
             <div style={{margin:"5%", textAlign:"center", padding:"5%", borderRadius:"10px"}}>
-                <h2>Welcome to
-                    <h1 style={{color:"orange"}}>Sasopsbiz Foundation</h1>
-                </h2>
+                <h2>Welcome to</h2><br></br>
+                <h1 style={{ color:"orange"}}>Sasopsbiz Foundation</h1>
             </div>
 
             <div style={{margin:"5%", textAlign:"center", padding:"5%", borderRadius:"10px"}}>

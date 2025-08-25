@@ -1,6 +1,6 @@
-function ourTeam(){
+function Team(){
     return(
         <></>
     )
 }
-export default ourTeam
+export default Team
