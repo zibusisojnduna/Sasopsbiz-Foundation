@@ -6,7 +6,7 @@ const Navbar = () => {
       display: "flex",
       justifyContent: "space-between",
       alignItems: "center",
-      backgroundColor: "#333",
+      backgroundColor: "orange",
       padding: "10px 20px",
       color: "white",
       position: "sticky",
@@ -36,13 +36,13 @@ const Navbar = () => {
 
   return (
     <nav style={styles.navbar}>
-      <div style={styles.logo}>MyApp</div>
+      <div style={styles.logo}><img src="../src/assets/favicon-32x32.png" style={{}}></img></div>
       <ul style={styles.navLinks}>
         <li><a href="#home" style={styles.link}>Home</a></li>
-        <li><a href="#about" style={styles.link}>Our Team</a></li>
-        <li><a href="#services" style={styles.link}>Events</a></li>
-        <li><a href="#contact" style={styles.link}>Opportunities</a></li>
-        <li><a href="#contact" style={styles.link}>Contact Us</a></li>
+        <li><a href="#team" style={styles.link}>Our Team</a></li>
+        <li><a href="#events" style={styles.link}>Events</a></li>
+        <li><a href="#opportunities" style={styles.link}>Opportunities</a></li>
+        <li><a href="#contacts" style={styles.link}>Contact Us</a></li>
 
       </ul>
     </nav>

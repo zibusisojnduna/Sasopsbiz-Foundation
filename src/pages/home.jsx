@@ -3,18 +3,18 @@ function Home(){
     return(
         
         <section>
-            <div style={{margin:"5%", textAlign:"center", padding:"5%", borderRadius:"10px"}}>
+            <div style={{margin:"5%", textAlign:"center", padding:"5%"}}>
                 <h2>Welcome to</h2><br></br>
                 <h1 style={{ color:"orange"}}>Sasopsbiz Foundation</h1>
             </div>
 
-            <div style={{margin:"5%", textAlign:"center", padding:"5%", borderRadius:"10px"}}>
+            <div style={{margin:"5%", textAlign:"center", padding:"5%"}}>
                 <img src="../src/assets/joel-muniz-3k3l2brxmwQ-unsplash.jpg" style={{height:"25%", width:"100%", padding:"5%"}}>
 
                 </img>
             </div>
 
-            <div style={{margin:"5%", textAlign:"center", padding:"5%", borderRadius:"10px"}}>
+            <div style={{margin:"5%", textAlign:"center", padding:"5%"}}>
                 <h1>Empowering Communities. Transforming Lives. Building a Just Future.</h1>
 
                 <h2>Founded in 2018 and based in Pietermaritzburg, KwaZulu-Natal, the SASOPSBIZ
@@ -30,7 +30,7 @@ to hold back communities.</h2>
 </div>
 
 
-<div style={{margin:"5%", textAlign:"center", padding:"5%", borderRadius:"10px"}}>
+<div style={{margin:"5%", textAlign:"center", padding:"5%"}}>
    <h1>Why Economic Independence Matters</h1>
 
 <h2>Economic independence is more than just earning an income—it is a powerful tool for social
@@ -57,7 +57,7 @@ that often thrive in environments of economic vulnerability.
 </h2> 
 </div>
 
-<div style={{margin:"5%", textAlign:"center", padding:"5%", borderRadius:"10px"}}>
+<div style={{margin:"5%", textAlign:"center", padding:"5%"}}>
     <h1>Our Commitment</h1>
 
 <h2>At SASOPSBIZ Foundation, we are committed to:</h2>
@@ -77,20 +77,26 @@ development and social impact.
 </h2>
 </div>
 
-<div style={{margin:"5%", textAlign:"center", padding:"5%", borderRadius:"10px"}}>
+<div style={{margin:"5%", textAlign:"center", padding:"5%"}}>
     <h1>Our Vision</h1>
 
 <h2>A South Africa where every individual—regardless of background—has the opportunity to
 achieve economic independence, live free from violence, and contribute to the growth and
 well-being of their communities.</h2>
 
-<h1>Join Us in Building a Future of Dignity and Hope</h1><br></br>
+</div>
+
+<div style={{margin:"5%", textAlign:"center", padding:"5%"}}>
+    <h1>Join Us in Building a Future of Dignity and Hope</h1><br></br>
 
 <h2>Your support can make a real difference. Whether through partnership, volunteering, or
 donations, you can help us expand our reach and change more lives. Together, we can break
 barriers, create opportunities, and build safer, more inclusive communities for women,
 children, and generations to come.</h2>
 </div>
+
+
+
 
             
         </section>
