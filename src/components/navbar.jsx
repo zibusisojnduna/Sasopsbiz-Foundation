@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const styles = {
@@ -38,11 +39,11 @@ const Navbar = () => {
     <nav style={styles.navbar}>
       <div style={styles.logo}><img src="../src/assets/favicon-32x32.png" style={{}}></img></div>
       <ul style={styles.navLinks}>
-        <li><a href="#home" style={styles.link}>Home</a></li>
-        <li><a href="#team" style={styles.link}>Our Team</a></li>
-        <li><a href="#events" style={styles.link}>Events</a></li>
-        <li><a href="#opportunities" style={styles.link}>Opportunities</a></li>
-        <li><a href="#contacts" style={styles.link}>Contact Us</a></li>
+        <li><a href="home" style={styles.link}>Home</a></li>
+        <li><a href="team" style={styles.link}>Our Team</a></li>
+        <li><a href="events" style={styles.link}>Events</a></li>
+        <li><a href="opportunities" style={styles.link}>Opportunities</a></li>
+        <li><a href="contacts" style={styles.link}>Contact Us</a></li>
 
       </ul>
     </nav>

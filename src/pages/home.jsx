@@ -1,7 +1,6 @@
 
 function Home(){
     return(
-        
         <section>
             <div style={{margin:"5%", textAlign:"center", padding:"5%"}}>
                 <h2>Welcome to</h2><br></br>
