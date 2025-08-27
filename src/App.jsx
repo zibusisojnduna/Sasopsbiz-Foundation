@@ -15,17 +15,18 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<Layout/>}>
-            <Route index element={<Home/>}/>
-            <Route path='team' element={<Team/>}/>
-            <Route path='events' element={<Events/>}/>
-            <Route path='opportunites' element={<Opportunities/>}/>
-            <Route path='contacts' element={<Contacts/>}/>
-          </Route>
-        </Routes>
-      </BrowserRouter>
+<BrowserRouter>
+  <Routes>
+    <Route path="/" element={<Layout />}>
+      <Route index element={<Home />} />
+      <Route path="team" element={<Team />} />
+      <Route path="events" element={<Events />} />
+      <Route path="opportunities" element={<Opportunities />} />
+      <Route path="contacts" element={<Contacts />} />
+    </Route>
+  </Routes>
+</BrowserRouter>
+
     </>
   )
 }

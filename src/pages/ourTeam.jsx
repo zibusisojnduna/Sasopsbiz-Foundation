@@ -10,6 +10,11 @@ function Team(){
             <div style={{margin:"5%", textAlign:"center", padding:"5%", display:""}}>
                 <table>
                     <tr>
+                        <th style={{padding:"5%"}}><img></img></th>
+                    </tr>
+
+
+                    <tr>
                         <th style={{padding:"5%"}}>Fidzani Nduna</th>
                         <th style={{padding:"5%"}}>Cynthia Vilakazi</th>
                         <th style={{padding:"5%"}}>Siphelele Kunene</th>

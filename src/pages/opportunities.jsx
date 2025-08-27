@@ -1,6 +1,11 @@
 function Opportunities(){
     return(
-        <></>
+        <section>
+            <title>
+                Opportunities
+            </title>
+
+        </section>
     )
 }
 
