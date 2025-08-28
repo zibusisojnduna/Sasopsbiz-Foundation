@@ -10,7 +10,9 @@ function Team(){
             <div style={{margin:"5%", textAlign:"center", padding:"5%", display:""}}>
                 <table>
                     <tr>
-                        <th style={{padding:"5%"}}><img></img></th>
+                        <th style={{padding:"5%"}}><img src="..\src\assets\Nduna-crop.jpg" style={{height:"15%", width:"35%"}}></img></th>
+                        <th style={{padding:"5%"}}><img src="..\src\assets\Pumla-crop.jpg" style={{height:"15%", width:"35%"}} ></img></th>
+                        <th style={{padding:"5%"}}><img src="..\src\assets\Siphelele.jpg" style={{height:"15%", width:"35%"}}></img></th>
                     </tr>
 
 
