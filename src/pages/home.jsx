@@ -54,7 +54,7 @@ others.
 
 <h3>
     - They break cycles of dependency: By equipping disadvantaged groups with skills
-and resources, we help reduce unemployment, substance abuse, and other social ills
+and resources, we help reduce unemployment, substance abuse, and other social skills
 that often thrive in environments of economic vulnerability.
 </h3> 
 </div>

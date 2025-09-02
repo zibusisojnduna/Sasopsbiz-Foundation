@@ -9,6 +9,8 @@ import Team from './pages/ourTeam'
 import Events from './pages/events'
 import Opportunities from './pages/opportunities'
 import Contacts from './pages/contacts'
+import Programes from './pages/programes'
+import Gallery from './pages/gallery'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,8 +22,10 @@ function App() {
     <Route path="/" element={<Layout />}>
       <Route index element={<Home />} />
       <Route path="team" element={<Team />} />
+      <Route path="programes" element={<Programes />} />
       <Route path="events" element={<Events />} />
       <Route path="opportunities" element={<Opportunities />} />
+      <Route path="gallery" element={<Gallery />} />
       <Route path="contacts" element={<Contacts />} />
     </Route>
   </Routes>
