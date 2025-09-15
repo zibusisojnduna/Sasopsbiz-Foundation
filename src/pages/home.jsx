@@ -17,7 +17,7 @@ function Home(){
             </div>
 
             <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-                <h1>Empowering Communities. Transforming Lives. Building a Just Future.</h1>
+                <h1 style={{ padding:"3%" }}>Empowering Communities. Transforming Lives. Building a Just Future.</h1>
 
                 <h3>Founded in 2018 and based in Pietermaritzburg, KwaZulu-Natal, the SASOPSBIZ
 Foundation is a Non-Profit Organisation dedicated to advancing economic justice and
@@ -33,7 +33,7 @@ to hold back communities.</h3>
 
 
 <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-   <h1>Why Economic Independence Matters</h1>
+   <h1 style={{ padding:"3%"}}>Why Economic Independence Matters</h1>
 
 <h3>Economic independence is more than just earning an income—it is a powerful tool for social
 change. When women and youth gain access to resources, skills, and opportunities:</h3>
@@ -52,17 +52,21 @@ owners, and community leaders who inspire change and create opportunities for
 others.
 </h3>
 
+
+
 <h3>
     - They break cycles of dependency: By equipping disadvantaged groups with skills
 and resources, we help reduce unemployment, substance abuse, and other social skills
 that often thrive in environments of economic vulnerability.
 </h3> 
+
+<img src="../src/assets/1.JPG" style={{height:"25%", width:"100%", padding:"5%"}}></img>
 </div>
 
 <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-    <h1>Our Commitment</h1>
+    <h1 style={{ padding:"3%"}}>Our Commitment</h1>
 
-<h1>At SASOPSBIZ Foundation, we are committed to:</h1>
+<h2>At SASOPSBIZ Foundation, we are committed to:</h2>
 
 <h3>-Skills Development &amp; Training – Providing accredited training, mentorship, and
 pathways to entrepreneurship.</h3>
@@ -77,10 +81,12 @@ entrepreneurial skills needed in a changing economy.</h3>
     - Community Transformation – Partnering with stakeholders to drive holistic
 development and social impact.
 </h3>
+
+<img src="" style={{height:"25%", width:"100%", padding:"5%"}} ></img>
 </div>
 
 <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-    <h1>Our Vision</h1>
+    <h1 style={{ padding:"3%"}}>Our Vision</h1>
 
 <h3>A South Africa where every individual—regardless of background—has the opportunity to
 achieve economic independence, live free from violence, and contribute to the growth and
@@ -89,7 +95,7 @@ well-being of their communities.</h3>
 </div>
 
 <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-    <h1>Join Us in Building a Future of Dignity and Hope</h1><br></br>
+    <h1 style={{ padding:"3%"}}>Join Us in Building a Future of Dignity and Hope</h1><br></br>
 
 <h3>Your support can make a real difference. Whether through partnership, volunteering, or
 donations, you can help us expand our reach and change more lives. Together, we can break
