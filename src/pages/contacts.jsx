@@ -6,7 +6,7 @@ function Contacts(){
         <>
         <section>
             <title>
-                Contact Us
+             Sasopsbiz Foundation - Contact Us
             </title>
             
             <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black" }}>

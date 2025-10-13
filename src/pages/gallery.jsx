@@ -6,7 +6,7 @@ export default function Gallery() {
 
   return (
     <>
-        <title>Gallery</title>
+        <title>Sasopsbiz Foundation - Gallery</title>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "10px" }}>
         {images.map((src, index) => (
           <img 

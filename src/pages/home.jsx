@@ -3,7 +3,7 @@ function Home(){
     return(
         <section>
             <title>
-                Home
+             Sasopsbiz Foundation - Home
             </title>
             <div style={{margin:"5%", textAlign:"center", padding:"5%"}}>
                 <h2>Welcome to</h2><br></br>

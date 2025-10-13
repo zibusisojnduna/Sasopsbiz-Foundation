@@ -2,7 +2,7 @@ function Events(){
     return(
         <section>
             <title>
-                Events
+              Sasopsbiz Foundation - Events
             </title>
         </section>
     )
