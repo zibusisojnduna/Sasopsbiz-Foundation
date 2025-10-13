@@ -12,7 +12,8 @@ function Programes(){
                     <p>Sasopsbiz FurnLab is a furniture incubator based in Pietermaritzburg. Funded by SEDA, FurnLab offers existing and start up SMMEs from township and rural areas an opportunity to professionalise and scale up their operations throughSasopsbiz FurnLab is a furniture incubator based in Pietermaritzburg. Funded by SEDA, FurnLab offers existing and start up SMMEs from township and rural areas an opportunity to professionalise and scale up their operations through:</p><br>
                     </br>
                     <p>-Access to the factory with state of the art equipment</p><br></br>
-                    <p>-Technical and business training & mentorship</p>
+                    <p>-Technical and business training & mentorship</p><br></br>
+                    <p>-Access to expertise</p>
 
             </div>
 
