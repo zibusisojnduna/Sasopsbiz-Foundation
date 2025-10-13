@@ -4,6 +4,8 @@ function Events(){
             <title>
               Sasopsbiz Foundation - Events
             </title>
+
+            <div></div>
         </section>
     )
 }

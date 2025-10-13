@@ -5,6 +5,8 @@ function Opportunities(){
                 Opportunities
             </title>
 
+            
+
         </section>
     )
 }
