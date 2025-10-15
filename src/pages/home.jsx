@@ -1,3 +1,4 @@
+import joelMuniz from "/src/assets/joel-muniz-3k3l2brxmwQ-unsplash.jpg"
 
 function Home(){
     return(
@@ -11,7 +12,7 @@ function Home(){
             </div>
 
             <div style={{margin:"5%", textAlign:"center", padding:"5%"}}>
-                <img src="../src/assets/joel-muniz-3k3l2brxmwQ-unsplash.jpg" style={{height:"25%", width:"100%", padding:"5%"}}>
+                <img src={joelMuniz} alt="joelMuniz" style={{height:"25%", width:"100%", padding:"5%"}}>
 
                 </img>
             </div>
