@@ -1,5 +1,5 @@
-import joelMuniz from "/src/assets/joel-muniz-3k3l2brxmwQ-unsplash.jpg"
-
+import joelMuniz from "../assets/joel-muniz-3k3l2brxmwQ-unsplash.jpg"
+import one from "../assets/1.JPG"
 function Home(){
     return(
         <section>
@@ -61,7 +61,7 @@ and resources, we help reduce unemployment, substance abuse, and other social sk
 that often thrive in environments of economic vulnerability.
 </h3> 
 
-<img src="../src/assets/1.JPG" style={{height:"25%", width:"100%", padding:"5%"}}></img>
+<img src={one} alt="one" style={{height:"25%", width:"100%", padding:"5%"}}></img>
 </div>
 
 <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
