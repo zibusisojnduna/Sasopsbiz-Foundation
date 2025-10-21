@@ -1,5 +1,9 @@
 import joelMuniz from "../assets/joel-muniz-3k3l2brxmwQ-unsplash.jpg"
 import one from "../assets/1.JPG"
+import workshop from "../assets/IMG_2743.JPG"
+import workshop2 from "../assets/IMG_2693.JPG"
+import award from "../assets/IMG_1318.JPG"
+
 function Home(){
     return(
         <section>
@@ -83,7 +87,8 @@ entrepreneurial skills needed in a changing economy.</h3>
 development and social impact.
 </h3>
 
-<img src="" style={{height:"25%", width:"100%", padding:"5%"}} ></img>
+<img src={workshop} alt="workshop" style={{height:"25%", width:"100%", padding:"5%"}} ></img>
+
 </div>
 
 <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
@@ -92,6 +97,9 @@ development and social impact.
 <h3>A South Africa where every individual—regardless of background—has the opportunity to
 achieve economic independence, live free from violence, and contribute to the growth and
 well-being of their communities.</h3>
+
+
+<img src={workshop2} alt="workshop2" style={{height:"25%", width:"100%", padding:"5%"}}></img>
 
 </div>
 
@@ -102,6 +110,8 @@ well-being of their communities.</h3>
 donations, you can help us expand our reach and change more lives. Together, we can break
 barriers, create opportunities, and build safer, more inclusive communities for women,
 children, and generations to come.</h3>
+
+<img src={award} alt="award" style={{height:"25%", width:"100%", padding:"5%"}} ></img>
 </div>
 
 

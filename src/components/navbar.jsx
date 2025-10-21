@@ -1,43 +1,63 @@
-import React from "react";
 import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import logo from "../assets/favicon-32x32.png"
 
-const Navbar = () => {
+function Navbar() {
+  const [showDropdown, setShowDropdown] = useState(false);
+
   const styles = {
     navbar: {
       display: "flex",
       justifyContent: "space-between",
       alignItems: "center",
-      backgroundColor: "white",
       padding: "10px 20px",
-      color: "orange",
-      position: "sticky",
-      top: 0,
-      zIndex: 1000,
+      backgroundColor: "orange",
     },
     logo: {
-      fontSize: "20px",
-      fontWeight: "bold",
-      cursor: "pointer",
+      display: "flex",
+      alignItems: "center",
     },
     navLinks: {
-      display: "flex",
       listStyle: "none",
+      display: "flex",
+      gap: "20px",
       margin: 0,
       padding: 0,
+      position: "relative",
     },
     link: {
-      marginLeft: "20px",
+      color: "white",
       textDecoration: "none",
-      color: "orange",
       fontSize: "16px",
       cursor: "pointer",
-      transition: "color 0.3s",
+      position: "relative",
+    },
+    dropdown: {
+      position: "absolute",
+      top: "30px",
+      left: "0",
+      backgroundColor: "orange",
+      borderRadius: "5px",
+      display: "flex",
+      flexDirection: "column",
+      padding: "10px 0",
+      minWidth: "150px",
+      boxShadow: "0px 4px 8px rgba(0,0,0,0.2)",
+      zIndex: 10,
+    },
+    dropdownItem: {
+      color: "white",
+      padding: "8px 16px",
+      textDecoration: "none",
+      fontSize: "15px",
+      cursor: "pointer",
+      transition: "background 0.2s ease",
     },
   };
 
   return (
     <nav style={styles.navbar}>
-      <div style={styles.logo}><img src="../src/assets/favicon-32x32.png" style={{}}></img></div>
+      <div style={styles.logo}><img src={logo} alt="logo" style={{}}></img></div>
       <ul style={styles.navLinks}>
         <li><a href="\" style={styles.link}>Home</a></li>
         <li><a href="team" style={styles.link}>Our Team</a></li>
@@ -50,6 +70,6 @@ const Navbar = () => {
       </ul>
     </nav>
   );
-};
+}
 
 export default Navbar;
