@@ -1,7 +1,7 @@
 import logo from '../assets/favicon-32x32.png'
 
 function Navbar() {
-  const [showDropdown, setShowDropdown] = useState(false);
+  
 
   const styles = {
     navbar: {
