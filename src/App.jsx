@@ -19,12 +19,12 @@ function App() {
       <Routes>
       <Route path="/" element={<Layout />}>
       <Route index element={<Home />} />
-      <Route path="team" element={<Team />} />
-      <Route path="programmes" element={<Programes />} />
-      <Route path="events" element={<Events />} />
-      <Route path="opportunities" element={<Opportunities />} />
-      <Route path="gallery" element={<Gallery />} />
-      <Route path="contacts" element={<Contacts />} />
+      <Route path="/team" element={<Team />} />
+      <Route path="/programmes" element={<Programes />} />
+      <Route path="/events" element={<Events />} />
+      <Route path="/opportunities" element={<Opportunities />} />
+      <Route path="/gallery" element={<Gallery />} />
+      <Route path="/contacts" element={<Contacts />} />
       </Route>
     </Routes>
   </BrowserRouter>
