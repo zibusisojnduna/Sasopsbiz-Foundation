@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: sasopsbiz-foundation
+    env: static
+    buildCommand: npm run build  # or your build command
+    staticPublishPath: ./dist    # or ./build, depending on your setup
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+```
+
