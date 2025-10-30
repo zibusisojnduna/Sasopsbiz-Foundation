@@ -12,23 +12,25 @@ import Team from './pages/ourTeam'
 import Programes from './pages/programes'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
+   <>
     <BrowserRouter>
       <Routes>
       <Route path="/" element={<Layout />}>
       <Route index element={<Home />} />
-      <Route path="/team" element={<Team />} />
-      <Route path="/programes" element={<Programes />} />
-      <Route path="/events" element={<Events />} />
-      <Route path="/opportunities" element={<Opportunities />} />
-      <Route path="/gallery" element={<Gallery />} />
-      <Route path="/contacts" element={<Contacts />} />
+      <Route path="team" element={<Team />} />
+      <Route path="programes" element={<Programes />} />
+      <Route path="events" element={<Events />} />
+      <Route path="opportunities" element={<Opportunities />} />
+      <Route path="gallery" element={<Gallery />} />
+      <Route path="contacts" element={<Contacts />} />
       </Route>
     </Routes>
   </BrowserRouter>
 
+   </>
   )
 }
 
