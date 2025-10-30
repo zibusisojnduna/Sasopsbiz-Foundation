@@ -1,4 +1,5 @@
 import logo from '../assets/favicon-32x32.png'
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   
@@ -57,13 +58,13 @@ function Navbar() {
     <nav style={styles.navbar}>
       <div style={styles.logo}><img src={logo} alt="logo" style={{}}></img></div>
       <ul style={styles.navLinks}>
-        <li><a href="\" style={styles.link}>Home</a></li>
-        <li><a href="team" style={styles.link}>Our Team</a></li>
-        <li><a href="programes" style={styles.link}>Programes</a></li>
-        <li><a href="events" style={styles.link}>Events</a></li>
-        <li><a href="opportunities" style={styles.link}>Opportunities</a></li>
-        <li><a href="gallery" style={styles.link}>Gallery</a></li>
-        <li><a href="contacts" style={styles.link}>Contact Us</a></li>
+        <li><Link to='/' style={styles.link}>Home</Link></li>
+        <li><Link to='/team' style={styles.link}>Our Team</Link></li>
+        <li><Link to='/programes' style={styles.link}>Programes</Link></li>
+        <li><Link to='/events' style={styles.link}>Events</Link></li>
+        <li><Link to='/opportunities' style={styles.link}>Opportunities</Link></li>
+        <li><Link to='/gallery' style={styles.link}>Gallery</Link></li>
+        <li><Link to='/contacts' style={styles.link}>Contact Us</Link></li>
 
       </ul>
     </nav>
