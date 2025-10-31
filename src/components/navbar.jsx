@@ -65,7 +65,6 @@ function Navbar() {
         <li><Link to='/opportunities' style={styles.link}>Opportunities</Link></li>
         <li><Link to='/gallery' style={styles.link}>Gallery</Link></li>
         <li><Link to='/contacts' style={styles.link}>Contact Us</Link></li>
-
       </ul>
     </nav>
   );
