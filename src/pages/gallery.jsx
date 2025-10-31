@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function Gallery() {
-  const images = ["/images/img1.jpg", "/images/img2.jpg", "/images/img3.jpg"];
+  const images = ["src/assets/491434202_18050422067360151_960801356610639074_n.jpg", "src/assets/491441343_18050435921360151_4236100648528192986_n.jpg", "src/assets/491444179_18050429720360151_1844065974353231688_n.jpg", "src/assets/491444833_18050429702360151_6235049835676073496_n.jpg", "src/assets/491446156_18050429711360151_4847565270394677344_n.jpg", "src/assets/491450467_18050435930360151_2762706605378776026_n.jpg", "src/assets/IMG_2693.JPG", "src/assets/IMG-20200708-WA0093-e1594832326811.jpg"];
   const [selected, setSelected] = useState(null);
 
   return (
