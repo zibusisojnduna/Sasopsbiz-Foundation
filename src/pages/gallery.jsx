@@ -7,9 +7,10 @@ import img5 from "../assets/491446156_18050429711360151_4847565270394677344_n.jp
 import img6 from "../assets/491450467_18050435930360151_2762706605378776026_n.jpg"
 import img7 from "../assets/IMG_2693.JPG"
 import img8 from "../assets/IMG-20200708-WA0093-e1594832326811.jpg"
+import img9 from "../assets/tamarcus-brown-29pFbI_D1Sc-unsplash.jpg"
 
 export default function Gallery() {
-  const images = [img1, img2, img3, img4, img5, img6, img7, img8];
+  const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
   const [selected, setSelected] = useState(null);
 
   return (
