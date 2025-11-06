@@ -6,7 +6,7 @@ function Team(){
     return(
         <section>
         <title> Our Team</title>
-            <div style={{margin:"5%", textAlign:"center", padding:"5%",}}>
+            <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
                 <h1>Meet Our Team</h1>
                 
             </div>
