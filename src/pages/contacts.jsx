@@ -28,24 +28,25 @@ function Contacts(){
 
             </div>
 
-            <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
+            
+
+            <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black", display:"flex"}}>
+                <div>
+                    
+                </div>
+                <MdOutlineEmail style={{color:"orange", size:"20"}}/><h3>Email Address:</h3><br></br>
+                
+
+                <FaPhone style={{color:"orange", size:"20"}}/><h3>Phone Number:</h3><br></br>
+                
+
+                <IoMdPin style={{color:"orange", size:"20"}} /><h3>Physical Address:</h3><br></br>
                 
             </div>
 
-            <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-                <MdOutlineEmail style={{color:"orange", size:"20"}} /><h3>Email Address:</h3><br></br>
-                <h4>siphelele@sasopsbiz.co.za</h4>
-            </div>
+            
 
-            <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-                <FaPhone style={{color:"orange"}} /><h3>Phone Number:</h3><br></br>
-                <h4>033 307 0898</h4>
-            </div>
-
-            <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-                <IoMdPin style={{color:"orange"}} /><h3>Physical Address:</h3>
-                <h4>210 Longmarket Steet, Pietermaritzburg, 3201</h4>
-            </div>
+            
 
         </section>
             

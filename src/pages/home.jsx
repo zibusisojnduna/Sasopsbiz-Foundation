@@ -3,6 +3,7 @@ import one from "../assets/1.JPG"
 import workshop from "../assets/IMG_2743.JPG"
 import workshop2 from "../assets/IMG_2693.JPG"
 import award from "../assets/IMG_1318.JPG"
+import wvlsa from  "../assets/CAN-WVL-GL-strapline.png"
 
 function Home(){
     return(
@@ -22,81 +23,57 @@ function Home(){
             </div>
 
             <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-                <h1 style={{ padding:"3%" }}>Empowering Communities. Transforming Lives. Building a Just Future.</h1>
+                <h2 style={{ padding:"3%" }}>Why was the NPO started?</h2>
 
-                <p>Founded in 2018 and based in Pietermaritzburg, KwaZulu-Natal, the SASOPSBIZ
-Foundation is a Non-Profit Organisation dedicated to advancing economic justice and
-creating opportunities for sustainable livelihoods. Our central mission is to empower
-previously disadvantaged individuals—particularly women and youth—to become
-economically independent, resilient, and confident contributors to society.</p>
+                <p>When the Sasopsbiz Foundation was started in Pietermaritzburg in 2018, the founders carried a simple but powerful belief — that when women are economically empowered, they can survive and thrive in any situation.</p>
 
-<p>We believe that true empowerment goes beyond financial security—it is about restoring
-dignity, unlocking potential, and breaking the cycles of poverty and inequality that continue
-to hold back communities.</p>
+                <p>From its inception, Sasopsbiz was more than an organisation — it was a movement born from lived realities of inequality, poverty, and the untold stories of girls and women whose potential remained untapped. The founders saw that economic exclusion was not just about income, but about dignity, voice, and choice.</p>
+
+                <p>In South Africa, many girls and young women grow up in environments where opportunity is limited, and dreams are postponed by social and economic barriers. The Sasopsbiz Foundation emerged as a response to this imbalance — offering empowerment through skills, enterprise, and healing.</p>
+
+                <p>It began small — supporting young women in township and rural communities — but the vision was always greater: to build a generation for generations to come.</p>
+
+                <p>Because there is more to empowerment than just giving skills, it’s about nurturing hope, belonging, and independence.</p>
 
 </div>
 
 
 <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-   <h1 style={{ padding:"3%"}}>Why Economic Independence Matters</h1>
+   <h2 style={{ padding:"3%"}}>The Starfish Philosphy</h2>
 
-<p>Economic independence is more than just earning an income—it is a powerful tool for social
-change. When women and youth gain access to resources, skills, and opportunities:</p>
+<p>There is a story that captures our work best — The Starfish Story by Loren Eiseley.</p>
 
-<p>-They gain freedom and safety: Women with economic stability are better able to
-make independent choices, reducing vulnerability to gender-based violence, abuse,
-and exploitation.</p>
+<p>A man walking along a beach saw a young girl throwing starfish back into the sea.</p>
 
-<p>-They protect and nurture families: Financial independence enables mothers and
-caregivers to provide secure homes, quality education, and healthcare for their
-children.</p>
+<p>“There are thousands of them,” he said. “You can’t make a difference.”</p>
 
-<p>
-    -They uplift communities: Empowered individuals become role models, business
-owners, and community leaders who inspire change and create opportunities for
-others.
-</p>
+<p>The girl smiled, threw another starfish into the waves, and said,
+“I made a difference to that one.”</p>
 
-
-
-<p>
-    - They break cycles of dependency: By equipping disadvantaged groups with skills
-and resources, we help reduce unemployment, substance abuse, and other social skills
-that often thrive in environments of economic vulnerability.
-</p> 
+<p>At Sasopsbiz Foundation, every woman we empower is that one starfish.
+Our work may not change the entire ocean, but it transforms the lives it touches — deeply, meaningfully, and sustainably.</p> 
 
 <img src={one} alt="one" style={{height:"25%", width:"100%", padding:"5%"}}></img>
 </div>
 
 <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-    <h1 style={{ padding:"3%"}}>Our Commitment</h1>
+    <h2 style={{ padding:"3%"}}>What is Sasopsbiz Foundation?</h2>
 
-<h2>At SASOPSBIZ Foundation, we are committed to:</h2>
+<p>Sasopsbiz Foundation is a social enterprise and non-profit organisation that empowers girls and young women through economic inclusion, enterprise development, vocational training, and social healing.</p>
 
-<p>-Skills Development &amp; Training – Providing accredited training, mentorship, and
-pathways to entrepreneurship.</p>
+<p>The Foundation believes that true empowerment integrates both the economic and social dimensions of life — giving women not only tools to work but also the confidence to lead, the freedom to create, and the courage to heal.</p>
 
-<p>-Enterprise Support – Equipping small businesses and cooperatives with the tools
-and networks needed to thrive.</p>
+<p>Through partnerships with government, private sector, and civil society, Sasopsbiz delivers community-based development programmes that restore dignity, unlock opportunity, and build resilience.</p>
 
-<p>- Youth Empowerment – Preparing the next generation with the digital, technical, and
-entrepreneurial skills needed in a changing economy.</p>
-
-<p>
-    - Community Transformation – Partnering with stakeholders to drive holistic
-development and social impact.
-</p>
 
 <img src={workshop} alt="workshop" style={{height:"25%", width:"100%", padding:"5%"}} ></img>
 
 </div>
 
 <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-    <h1 style={{ padding:"3%"}}>Our Vision</h1>
+    <h2 style={{ padding:"3%"}}>Our Mission</h2>
 
-<p>A South Africa where every individual—regardless of background—has the opportunity to
-achieve economic independence, live free from violence, and contribute to the growth and
-well-being of their communities.</p>
+<p>To empower and equip girls and young women to achieve sustainable livelihoods through access to skills training, entrepreneurship opportunities, and community support systems — building the foundations for intergenerational transformation.</p>
 
 
 <img src={workshop2} alt="workshop2" style={{height:"25%", width:"100%", padding:"5%"}}></img>
@@ -104,17 +81,82 @@ well-being of their communities.</p>
 </div>
 
 <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-    <h1 style={{ padding:"3%"}}>Join Us in Building a Future of Dignity and Hope</h1><br></br>
+    <h2 style={{ padding:"3%"}}>Our Vision</h2><br></br>
 
-<p>Your support can make a real difference. Whether through partnership, volunteering, or
-donations, you can help us expand our reach and change more lives. Together, we can break
-barriers, create opportunities, and build safer, more inclusive communities for women,
-children, and generations to come.</p>
+<h3>“Building a generation for generations to come.”</h3>
 
 <img src={award} alt="award" style={{height:"25%", width:"100%", padding:"5%"}} ></img>
 </div>
 
+<div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
+    <h2 style={{padding:"3%"}}>Core Programes</h2>
 
+    <h4>Sasops Women in Trades Support Programme (SWITS)</h4>
+
+    <h4>Phakamisa Girls Economic Empowerment Programme</h4>
+
+    <h4>Sasops Furnlab (Furniture Manufacturing Incubator)</h4>
+
+    <h4>Cooperative Concept and Governance Training</h4>
+    
+    <h4>FoodBev Learnership Programme</h4>
+
+    <h4>Fasset Skills Development Programme</h4>
+
+    <h4>Umgungundlovu Community Empowerment Network Initiative (UCENI)</h4>
+
+    
+
+</div>
+
+<div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
+    <h2>Our Impact So Far</h2>
+
+    <p>•	Over 400 women and youth trained across KwaZulu-Natal.</p>
+
+    <p>•	Successful transition of participants into jobs and microenterprises.</p>
+
+    <p>•	Strengthened community infrastructure through skills-based projects.</p>
+
+    <p>•	Recognition and awards from national partners for excellence in empowerment.</p>
+
+    <p>•	Established a replicable model for community-rooted, women-led development.</p>
+
+
+</div>
+
+
+<div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
+    <h2>How You Can Support</h2>
+
+    <p>Your partnership helps us expand our reach, create sustainable opportunities, and empower women to lead change in their communities.</p>
+
+    <p>Ways to support:</p>
+
+    <p>•	Partner with us on training, mentorship, or enterprise programmes.</p>
+
+    <p>•	Fund skills initiatives or community projects.</p>
+
+    <p>•	Sponsor equipment, tools, or learning resources.</p>
+
+    <p>•	Volunteer expertise in business, leadership, or the arts.</p>
+
+    <p>Every contribution — large or small — makes a difference to someone’s life.Because when we lift one woman, we lift an entire community.</p>
+
+</div>
+
+<div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
+    <h2>Acknowledgements</h2>
+
+    <p>Sasopsbiz Foundation proudly collaborates with:</p>
+
+    <h4>WVLSA (Women's Voice and Leadership South Africa)</h4>
+    <img src={wvlsa} alt="wvlsa" style={{height:"25%", width:"50%", padding:"5%"}}></img>
+
+    <h4>Gender Links</h4>
+    <img></img>
+
+</div>
 
 
             
