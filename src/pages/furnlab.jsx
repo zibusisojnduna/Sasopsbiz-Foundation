@@ -4,20 +4,12 @@ function Furnlab(){
         <section>
             <title>Sasopsbiz Furnlab</title>
             <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-                <h2>Sasopsbiz Furnlab</h2>
-                <p>Sasopsbiz Furnlab is a furniture incubator based in Pietermaritzburg. Funded by SEDA, FurnLab offers existing and start up SMMEs from township and rural areas an opportunity to professionalise and scale up their operations through:</p>
-                <p>- Access to the factory with state of the art equipment</p>
-                <p>- Access to markets</p>
-                <p>- Access to funding</p>
-                <p>- Technical and business training & mentorship</p>
-                <p>- Access to expertise</p>
+                <h2>Sasops Furnlab (Furniture Manufacturing Incubator)</h2>
+                <h3>Partner: SEDA | Participants: 45</h3>
 
-                <p>Our main aim is import substitution and localisation through:</p>
-                <p>- Coordinated production & Product support chain</p>
-                <p>- Coordinated market supply</p>
-                <p>- Forming of strategic support alliances</p>
-
-                <p>As part of the SASOPSBIZ group. The vision of FurnLab is to be a catalyst for vibrant, dynamic, professional, competitive, and sustainable Small, Micro and Medium Enterprises in KwaZulu-Natal and beyond with a special focus on Wood, Furniture and related products.</p>
+                <p>The Sasops Furnlab supports artisans from under-resourced areas to professionalise and grow their furniture businesses.
+Participants receive access to shared production facilities, mentorship, and both accredited and non-accredited training in woodworking, entrepreneurship, and market readiness.
+This initiative promotes import substitution and localisation, helping to build a self-sustaining, proudly South African furniture value chain.</p>
 
                 <img src={furnlab} alt="furnlab" style={{height:"25%", width:"100%", padding:"5%"}}></img>
 

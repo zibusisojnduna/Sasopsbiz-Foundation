@@ -5,12 +5,36 @@ function Uceni(){
         <section>
             <title>Umgungundlovu Community Empowerment Network Initiative (UCENI)</title>
             <div style={{margin:"5%", textAlign:"center", padding:"5%"}}>
+                <h2>Umgungundlovu Community Empowerment Network Initiative (UCENI)</h2>
+                <p>Sasopsbiz Foundation is the founding convener of UCENI — a powerful regional network connecting NGOs, local government, and private sector partners to promote inclusive and sustainable economic empowerment.</p>
+
+                <p>Through UCENI, the Foundation:</p>
+
+                <p>•	Coordinates shared programmes and training models.</p>
+                <p>•	Mobilises resources and strengthens local NGO capacity.</p>
+                <p>•	Advocates for women in trades and enterprise</p>
+                <p>•	Facilitates mentorship, certification, and employment pathways.</p>
+
+                <p>UCENI represents the collaborative spirit of ubuntu — communities empowering themselves through partnership and shared vision.</p>
+            </div>
+            
+
+            <div style={{margin:"5%", textAlign:"center", padding:"5%"}}>
                 <h2>Phakamisa Girls Economic Empowerment</h2>
-                <p>This is a programme aimed at empowering girls and young women with an emphasis on future economic impact, opening access to opportunities for development, addressing systematic gender biases and value-based behaviour modification. It is multi-sectoral involving all departments and key stakeholders and addresses the challenge of gender imbalance early in life. 
-                    Sasopsbiz Foundation holds various events to facilitate networking amongst various groups who aspire, or whom are already in business or are in the NGO sector. These include Salt and Pepper Sessions, Book Review Tuesday, Women’s Day Events etc.</p>
+                <h3>Partner: Gender Links & WVL SA | Participants: 90</h3>
+                <p>The Phakamisa Programme focuses on entrepreneurship, self-development, and job readiness for young women in townships and rural communities.
+It has produced inspiring success stories of women who now run their own businesses or have secured formal employment.
+The programme was recognised by Gender Links as:
+</p>
+
+<h4>🏆 Overall Winner – Organisational Development</h4>
+<h4>🏆 Winner – Economic Justice</h4>
+<h4>🏆 Winner – Youth Empowerment</h4>
                 
                 <img src={workshop3} alt="worksop3" style={{height:"25%", width:"100%", padding:"5%"}}></img>
             </div>
+
+
         </section>
     )
 }

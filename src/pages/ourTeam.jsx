@@ -14,20 +14,38 @@ function Team(){
             <div style={{margin:"5%", textAlign:"center", padding:"5%",}}>
                 <table>
                    <th>
-                        <tr><img src={fidzani} alt="fidzani" style={{width:"100%", padding:"5%"}}></img>
+                        <tr><img src={fidzani} alt="fidzani" style={{width:"100%", padding:"5%", height:"25%"}}></img>
                             <h4>Fidzani Nduna</h4>
+                            <p>Director/Founder</p>
                         </tr>
                    </th>
 
                    <th>
                         <tr>
-                            <img src={pumla} alt="pumla" style={{width:"100%", padding:"5%"}}></img>
+                            <img src={pumla} alt="pumla" style={{width:"100%", padding:"5%", height:"25%"}}></img>
                             <h4>Cynthia Vilakazi</h4>
+                            <p>CEO/Founder</p>
                         </tr>
 
                         <tr>
-                            <img src={siphelele} alt="siphelele" style={{width:"100%", padding:"5%"}}></img>
-                            Siphelele Kunene
+                            <img src={siphelele} alt="siphelele" style={{width:"100%", padding:"5%", height:"25%"}}></img>
+                            <h4>Siphelele Kunene</h4>
+                            <p>Office Admin</p>
+                        </tr>
+
+                        <tr>
+                            <h4>Phila Vilakazi</h4>
+                            <p>Project Admin</p>
+                        </tr>
+
+                        <tr>
+                            <h4>Thabiso Ngubane</h4>
+                            <p>Project Finance</p>
+                        </tr>
+
+                        <tr>
+                            <h4>Zibusiso Nduna</h4>
+                            <p>IT/Finance</p>
                         </tr>
                    </th>
                 </table>
