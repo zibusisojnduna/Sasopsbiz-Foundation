@@ -4,6 +4,11 @@ import workshop from "../assets/IMG_2743.JPG"
 import workshop2 from "../assets/IMG_2693.JPG"
 import award from "../assets/IMG_1318.JPG"
 import wvlsa from  "../assets/CAN-WVL-GL-strapline.png"
+import genderlinks from "../assets/genderlinks.png"
+import seda from "../assets/seda-transparent.png"
+import foodbev from "../assets/foodbev_seta_logo_south_Africa.jpg"
+import fasset from "../assets/FASSET.jpg"
+import dgrv from "../assets/dgrv.png"
 
 function Home(){
     return(
@@ -154,7 +159,19 @@ Our work may not change the entire ocean, but it transforms the lives it touches
     <img src={wvlsa} alt="wvlsa" style={{height:"25%", width:"50%", padding:"5%"}}></img>
 
     <h4>Gender Links</h4>
-    <img></img>
+    <img src={genderlinks} alt="genderlinks" style={{height:"25%", width:"50%", padding:"5%"}}></img>
+
+    <h4>Small Enterprise Development Agency (SEDA)</h4>
+    <img src={seda} alt="seda" style={{height:"25%", width:"50%", padding:"5%"}}></img>
+
+    <h4>FoodBev SETA</h4>
+    <img src={foodbev} alt="foodbev" style={{height:"5%", width:"50%", padding:"5%"}}></img>
+
+    <h4>Fassett SETA</h4>
+    <img src={fasset} alt="fasset" style={{height:"25%", width:"50%", padding:"5%"}}></img>
+
+    <h4>DGRV</h4>
+    <img src={dgrv} alt="dgrv" style={{height:"25%", width:"50%", padding:"5%"}}></img>
 
 </div>
 
