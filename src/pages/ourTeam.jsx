@@ -1,55 +1,69 @@
-import fidzani from "../assets/IMG-20200708-WA0093-e1594832326811.jpg"
+import fidzani from "../assets/Nduna-crop.jpg"
 import pumla from "../assets/Pumla-crop.jpg"
 import siphelele from "../assets/Siphelele.jpg"
+import phila from "../assets/placeholder.png"
+import ProfileCard from "../components/teamCard"
 
 function Team(){
+    const people =[
+        {
+            name:"Fidzani Nduna",
+            title:"Director/Co-Founder",
+            image:fidzani,
+        },
+        {
+            name:"Pumla Vilakazi",
+            title:"CEO/Co-Founder",
+            image:pumla,
+        },
+        {
+            name:"Siphelele Kunene",
+            title:"Office Admin",
+            image:siphelele,
+        },
+        {
+            name:"Phila Vilakazi",
+            title:"Project Admin",
+            image:phila,
+        },
+        {
+            name:"Thabiso Ngubane",
+            title:"Project Finance",
+            image:phila,
+        },
+        {
+            name:"Zibusiso Nduna",
+            title:"IT/Finance",
+            image:phila,
+        },
+    ]
+
+    const styles = {
+    container: {
+      display: "flex",
+      gap: "20px",
+      justifyContent: "center",
+      flexWrap: "wrap",
+      marginTop: "40px",
+    },
+  };
+
+
     return(
         <section>
         <title> Our Team</title>
-            <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-                <h1>Meet Our Team</h1>
-                
+            <div style={styles.container}>
+                {people.map((person, index)=> (
+                    <ProfileCard
+                    key={index}
+                    name={person.name}
+                    title={person.title}
+                    image={person.image}
+                    />
+                ))}
+
             </div>
 
-            <div style={{margin:"5%", textAlign:"center", padding:"5%",}}>
-                <table>
-                   <th>
-                        <tr><img src={fidzani} alt="fidzani" style={{width:"100%", padding:"5%", height:"25%"}}></img>
-                            <h4>Fidzani Nduna</h4>
-                            <p>Director/Founder</p>
-                        </tr>
-                   </th>
-
-                   <th>
-                        <tr>
-                            <img src={pumla} alt="pumla" style={{width:"100%", padding:"5%", height:"25%"}}></img>
-                            <h4>Cynthia Vilakazi</h4>
-                            <p>CEO/Founder</p>
-                        </tr>
-
-                        <tr>
-                            <img src={siphelele} alt="siphelele" style={{width:"100%", padding:"5%", height:"25%"}}></img>
-                            <h4>Siphelele Kunene</h4>
-                            <p>Office Admin</p>
-                        </tr>
-
-                        <tr>
-                            <h4>Phila Vilakazi</h4>
-                            <p>Project Admin</p>
-                        </tr>
-
-                        <tr>
-                            <h4>Thabiso Ngubane</h4>
-                            <p>Project Finance</p>
-                        </tr>
-
-                        <tr>
-                            <h4>Zibusiso Nduna</h4>
-                            <p>IT/Finance</p>
-                        </tr>
-                   </th>
-                </table>
-            </div>
 
         </section>
     )

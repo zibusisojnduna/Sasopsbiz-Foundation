@@ -4,7 +4,7 @@ function Uceni(){
     return(
         <section>
             <title>Umgungundlovu Community Empowerment Network Initiative (UCENI)</title>
-            <div style={{margin:"5%", textAlign:"center", padding:"5%"}}>
+            <div style={{margin:"5%", padding:"5%"}}>
                 <h2>Umgungundlovu Community Empowerment Network Initiative (UCENI)</h2>
                 <p>Sasopsbiz Foundation is the founding convener of UCENI — a powerful regional network connecting NGOs, local government, and private sector partners to promote inclusive and sustainable economic empowerment.</p>
 
@@ -19,7 +19,7 @@ function Uceni(){
             </div>
             
 
-            <div style={{margin:"5%", textAlign:"center", padding:"5%"}}>
+            <div style={{margin:"5%", padding:"5%"}}>
                 <h2>Phakamisa Girls Economic Empowerment</h2>
                 <h3>Partner: Gender Links & WVL SA | Participants: 90</h3>
                 <p>The Phakamisa Programme focuses on entrepreneurship, self-development, and job readiness for young women in townships and rural communities.
