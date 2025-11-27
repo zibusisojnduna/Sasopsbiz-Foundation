@@ -2,7 +2,7 @@ function Swits(){
     return(
         <section>
             <title>SWITS</title>
-            <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
+            <div style={{margin:"5%", padding:"5%", color:"black"}}>
                 <h2>Sasops Women in Trades Support Programme (SWITS)</h2>
                 <h3>Partner: R-WVLSA | Participants: 200</h3>
 

@@ -17,7 +17,7 @@ function Home(){
              Home
             </title>
             <div style={{margin:"5%", textAlign:"center", padding:"5%"}}>
-                <h2>Welcome to</h2><br></br>
+                <h2 style={{ color:"black"}}>Welcome to</h2><br></br>
                 <h1 style={{ color:"orange"}}>Sasopsbiz Foundation</h1>
             </div>
 
@@ -27,8 +27,8 @@ function Home(){
                 </img>
             </div>
 
-            <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-                <h2 style={{ padding:"3%" }}>Why was the NPO started?</h2>
+            <div style={{margin:"5%", padding:"5%", color:"black"}}>
+                <h2>Why was the NPO started?</h2>
 
                 <p>When the Sasopsbiz Foundation was started in Pietermaritzburg in 2018, the founders carried a simple but powerful belief — that when women are economically empowered, they can survive and thrive in any situation.</p>
 
@@ -43,8 +43,8 @@ function Home(){
 </div>
 
 
-<div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-   <h2 style={{ padding:"3%"}}>The Starfish Philosphy</h2>
+<div style={{margin:"5%", padding:"5%", color:"black"}}>
+   <h2>The Starfish Philosphy</h2>
 
 <p>There is a story that captures our work best — The Starfish Story by Loren Eiseley.</p>
 
@@ -61,8 +61,8 @@ Our work may not change the entire ocean, but it transforms the lives it touches
 <img src={one} alt="one" style={{height:"25%", width:"100%", padding:"5%"}}></img>
 </div>
 
-<div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-    <h2 style={{ padding:"3%"}}>What is Sasopsbiz Foundation?</h2>
+<div style={{margin:"5%", padding:"5%", color:"black"}}>
+    <h2>What is Sasopsbiz Foundation?</h2>
 
 <p>Sasopsbiz Foundation is a social enterprise and non-profit organisation that empowers girls and young women through economic inclusion, enterprise development, vocational training, and social healing.</p>
 
@@ -75,8 +75,8 @@ Our work may not change the entire ocean, but it transforms the lives it touches
 
 </div>
 
-<div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-    <h2 style={{ padding:"3%"}}>Our Mission</h2>
+<div style={{margin:"5%", padding:"5%", color:"black"}}>
+    <h2>Our Mission</h2>
 
 <p>To empower and equip girls and young women to achieve sustainable livelihoods through access to skills training, entrepreneurship opportunities, and community support systems — building the foundations for intergenerational transformation.</p>
 
@@ -85,16 +85,16 @@ Our work may not change the entire ocean, but it transforms the lives it touches
 
 </div>
 
-<div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-    <h2 style={{ padding:"3%"}}>Our Vision</h2><br></br>
+<div style={{margin:"5%", padding:"5%", color:"black"}}>
+    <h2>Our Vision</h2><br></br>
 
 <h3>“Building a generation for generations to come.”</h3>
 
 <img src={award} alt="award" style={{height:"25%", width:"100%", padding:"5%"}} ></img>
 </div>
 
-<div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
-    <h2 style={{padding:"3%"}}>Core Programes</h2>
+<div style={{margin:"5%", padding:"5%", color:"black"}}>
+    <h2>Core Programes</h2>
 
     <h4>Sasops Women in Trades Support Programme (SWITS)</h4>
 
@@ -114,7 +114,7 @@ Our work may not change the entire ocean, but it transforms the lives it touches
 
 </div>
 
-<div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
+<div style={{margin:"5%", padding:"5%", color:"black"}}>
     <h2>Our Impact So Far</h2>
 
     <p>•	Over 400 women and youth trained across KwaZulu-Natal.</p>
@@ -131,7 +131,7 @@ Our work may not change the entire ocean, but it transforms the lives it touches
 </div>
 
 
-<div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
+<div style={{margin:"5%", padding:"5%", color:"black"}}>
     <h2>How You Can Support</h2>
 
     <p>Your partnership helps us expand our reach, create sustainable opportunities, and empower women to lead change in their communities.</p>

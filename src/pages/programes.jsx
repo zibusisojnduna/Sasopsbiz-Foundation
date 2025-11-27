@@ -2,7 +2,7 @@ import { Outlet, Link } from "react-router-dom";
 
 export default function Programes() {
   const styles = {
-    container: { padding: "20px", textAlign: "center", color:"black"  },
+    container: { padding: "20px", color:"black"  },
     linkList: { display: "flex", justifyContent: "center", gap: "20px", marginBottom: "20px" },
     link: { color: "orange", textDecoration: "none", fontWeight: "bold" }
   };
@@ -10,7 +10,7 @@ export default function Programes() {
   return (
     <div style={styles.container}>
       <title>Programes</title>
-      <h1>Our Programes</h1>
+      <h1 style={{textAlign:"center"}}>Our Programes</h1>
       <div style={styles.linkList}>
         <Link to="learnership" style={styles.link}>Student Learnership</Link>
         <Link to="furnlab" style={styles.link}>Sasopsbiz Furnlab</Link>

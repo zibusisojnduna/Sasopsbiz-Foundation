@@ -1,6 +1,12 @@
 import { MdOutlineEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
 import { IoMdPin } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
+
 function Contacts(){
     return(
         <>
@@ -30,21 +36,69 @@ function Contacts(){
 
             
 
-            <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black", display:"flex"}}>
+            <div style={{ padding:"5%", color:"black", display:"flex", alignItems:"center", justifyContent:"center"}}>
+                <MdOutlineEmail style={{color:"orange"}}/>
+                <h3>Email Address:</h3>
                 <div>
-                    
+                    <p>siphelele@sasopsbiz.co.za</p>
                 </div>
-                <MdOutlineEmail style={{color:"orange", size:"20"}}/><h3>Email Address:</h3><br></br>
-                
-
-                <FaPhone style={{color:"orange", size:"20"}}/><h3>Phone Number:</h3><br></br>
-                
-
-                <IoMdPin style={{color:"orange", size:"20"}} /><h3>Physical Address:</h3><br></br>
-                
             </div>
 
+            <div style={{ padding:"3%", color:"black", display:"flex", alignItems:"center", justifyContent:"center"}}>
+                <FaPhone style={{color:"orange", size:"20"}}/><h3>Phone Number:</h3>
+                <div>
+                    <p>033 307 0898</p>
+                </div>
+            </div>
+
+            <div style={{ padding:"3%", color:"black", display:"flex", alignItems:"center", justifyContent:"center"}}>
+                <IoMdPin style={{color:"orange", size:"20"}} /><h3>Physical Address:</h3><br></br>
+                <div >
+                    <p>210 Langalibalele Street, Pietermaritzburg, 3201</p>
+                </div>
+
+            </div>
+
+            <div style={{ padding:"3%", color:"black", display:"flex", alignItems:"center", justifyContent:"center"}}>
+                <h3>Our Social Media handles:</h3>
+            </div>
+
+             <div style={{ padding:"3%", color:"black", display:"flex", alignItems:"center", justifyContent:"center"}}>
+                    <FaFacebook style={{color:"orange"}}/>
+                    <h3>Facebook:</h3>
+                    <p>Sasopsbiz Foundation</p>
+            </div>
+
+            <div style={{ padding:"3%", color:"black", display:"flex", alignItems:"center", justifyContent:"center"}}>
+                <FaInstagramSquare style={{color:"orange"}} />
+                <h3>Instagram:</h3>
+                <p>@sasopsbizfoundation</p>
+            </div>
+
+            <div style={{ padding:"3%", color:"black", display:"flex", alignItems:"center", justifyContent:"center"}}>
+                <FaXTwitter style={{color:"orange"}} />
+                <h3>Twitter/X:</h3>
+                <p>@SasopsbizF</p>
+            </div>
+
+            <div style={{ padding:"3%", color:"black", display:"flex", alignItems:"center", justifyContent:"center"}}>
+                <FaLinkedin style={{color:"orange"}}/>
+                <h3>Linkedin:</h3>
+                <p>Sasopsbiz</p>
+            </div>
+
+            <div style={{ padding:"3%", color:"black", display:"flex", alignItems:"center", justifyContent:"center"}}>
+                <FaTiktok style={{color:"orange"}}/>
+                <h3>Tiktok:</h3>
+                <p>@sasopsbizfoundation</p>
+            </div>
+
+
+
             
+                
+
+                
 
             
 

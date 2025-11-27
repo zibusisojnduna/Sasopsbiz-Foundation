@@ -3,7 +3,7 @@ function Furnlab(){
     return(
         <section>
             <title>Sasopsbiz Furnlab</title>
-            <div style={{margin:"5%", textAlign:"center", padding:"5%", color:"black"}}>
+            <div style={{margin:"5%", padding:"5%", color:"black"}}>
                 <h2>Sasops Furnlab (Furniture Manufacturing Incubator)</h2>
                 <h3>Partner: SEDA | Participants: 45</h3>
 
