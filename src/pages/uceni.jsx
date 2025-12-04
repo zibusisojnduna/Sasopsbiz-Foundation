@@ -20,16 +20,7 @@ function Uceni(){
             
 
             <div style={{margin:"5%", padding:"5%"}}>
-                <h2>Phakamisa Girls Economic Empowerment</h2>
-                <h3>Partner: Gender Links & WVL SA | Participants: 90</h3>
-                <p>The Phakamisa Programme focuses on entrepreneurship, self-development, and job readiness for young women in townships and rural communities.
-It has produced inspiring success stories of women who now run their own businesses or have secured formal employment.
-The programme was recognised by Gender Links as:
-</p>
-
-<h4>🏆 Overall Winner – Organisational Development</h4>
-<h4>🏆 Winner – Economic Justice</h4>
-<h4>🏆 Winner – Youth Empowerment</h4>
+                
                 
                 <img src={workshop3} alt="worksop3" style={{height:"25%", width:"100%", padding:"5%"}}></img>
             </div>

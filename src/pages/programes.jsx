@@ -12,10 +12,13 @@ export default function Programes() {
       <title>Programes</title>
       <h1 style={{textAlign:"center"}}>Our Programes</h1>
       <div style={styles.linkList}>
-        <Link to="learnership" style={styles.link}>Student Learnership</Link>
+        <Link to="learnership" style={styles.link}>Fasset Skills Development Programme</Link>
         <Link to="furnlab" style={styles.link}>Sasopsbiz Furnlab</Link>
         <Link to="swits" style={styles.link}>SWITS</Link>
         <Link to="uceni" style={styles.link}>Umgungundlovu Community Empowerment Network Initiative (UCENI)</Link>
+        <Link to="pgeep" style={styles.link}> Phakamisa Girls Economic Empowerment Programme (PGEEP)</Link>
+        <Link to="dgrv" style={styles.link}>Cooperative Concept and Governance Training</Link>
+        <Link to="foodbev" style={styles.link}>FoodBev Learnership Programme</Link>
       </div>
 
       {/* 👇 This is where subpage content (e.g., Youth, Women) will appear */}
