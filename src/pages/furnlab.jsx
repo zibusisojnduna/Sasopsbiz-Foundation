@@ -1,4 +1,6 @@
 import furnlab from "../assets/IMG_0046.JPG"
+import furnlab2 from "../assets/IMG_0064.JPG"
+
 function Furnlab(){
     return(
         <section>
@@ -12,6 +14,8 @@ Participants receive access to shared production facilities, mentorship, and bot
 This initiative promotes import substitution and localisation, helping to build a self-sustaining, proudly South African furniture value chain.</p>
 
                 <img src={furnlab} alt="furnlab" style={{height:"25%", width:"100%", padding:"5%"}}></img>
+
+                <img src={furnlab2} alt="furnlab2" style={{height:"25%", width:"100%", padding:"5%"}}></img>
 
             </div>
         </section>
