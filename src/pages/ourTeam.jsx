@@ -1,7 +1,8 @@
 import fidzani from "../assets/Nduna-crop.jpg"
 import pumla from "../assets/Pumla-crop.jpg"
 import siphelele from "../assets/Siphelele.jpg"
-import phila from "../assets/placeholder.png"
+import stock from "../assets/placeholder.png"
+import phila from "../assets/phila.jpeg"
 import ProfileCard from "../components/teamCard"
 
 function Team(){
@@ -29,12 +30,12 @@ function Team(){
         {
             name:"Thabiso Ngubane",
             title:"Project Finance",
-            image:phila,
+            image:stock,
         },
         {
             name:"Zibusiso Nduna",
             title:"IT/Finance",
-            image:phila,
+            image:stock,
         },
     ]
 
