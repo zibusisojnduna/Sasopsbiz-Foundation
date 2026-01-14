@@ -9,6 +9,7 @@ import seda from "../assets/seda-transparent.png"
 import foodbev from "../assets/foodbev_seta_logo_south_Africa.jpg"
 import fasset from "../assets/FASSET.jpg"
 import dgrv from "../assets/dgrv.png"
+import gbv from "../assets/gbv workshop.png"
 
 function Home(){
     return(
@@ -126,6 +127,8 @@ Our work may not change the entire ocean, but it transforms the lives it touches
     <p>•	Recognition and awards from national partners for excellence in empowerment.</p>
 
     <p>•	Established a replicable model for community-rooted, women-led development.</p>
+
+    <img src={gbv} alt="gbv"  style={{height:"25%", width:"100%", padding:"5%"}}></img>
 
 
 </div>
