@@ -1,4 +1,12 @@
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import PrivacyPolicyModal from "../pages/privacy";
+import TermsModal from "../pages/terms";
+
 const Footer = () => {
+  const [showPrivacy, setShowPrivacy] = useState(false);
+  const [showTerms, setShowTerms] = useState(false)
+
   const styles = {
     footer: {
       backgroundColor: "orange",
@@ -19,26 +27,48 @@ const Footer = () => {
       textDecoration: "none",
       fontSize: "14px",
       cursor: "pointer",
-      transition: "color 0.3s",
     },
     copyright: {
       fontSize: "12px",
-      color: "white",
     },
   };
 
   return (
-    <footer style={styles.footer}>
-      <div style={styles.links}>
-        <a href="#privacy" style={styles.link}>Privacy Policy</a>
-        <a href="#terms" style={styles.link}>Terms of Service</a>
-        <a href="#contact" style={styles.link}>Contact</a>
-      </div>
-      <p style={styles.copyright}>
-        © {new Date().getFullYear()} Sasopsbiz Foundation. All rights reserved.
-      </p>
-    </footer>
+    <>
+      <footer style={styles.footer}>
+        <div style={styles.links}>
+          <span
+            style={styles.link}
+            onClick={() => setShowPrivacy(true)}
+          >
+            Privacy Policy
+          </span>
+
+          <span
+            style={styles.link}
+            onClick={() => setShowTerms(true)}
+            >
+              Terms of Service
+            </span>
+          <Link to="/contacts" style={styles.link}>Contact</Link>
+        </div>
+
+        <p style={styles.copyright}>
+          © {new Date().getFullYear()} Sasopsbiz Foundation. All rights reserved.
+        </p>
+      </footer>
+
+      <PrivacyPolicyModal
+        isOpen={showPrivacy}
+        onClose={() => setShowPrivacy(false)}
+      />
+
+      <TermsModal
+        isOpen={showTerms}
+        onClose={() => setShowTerms(false)}
+      />
+    </>
   );
 };
 
-export default Footer
+export default Footer;
