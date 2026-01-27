@@ -17,38 +17,43 @@ import Furnlab from './pages/furnlab'
 import PGEEP from './pages/pgeep'
 import Swits from './pages/swits'
 import Uceni from './pages/uceni'
+import Privacy from './pages/privacy';
+import Terms from './pages/terms';
+import Contact from './pages/contacts';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 function App() {
 
 
   return (
-   <>
-   <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="team" element={<Team />} />
+  <BrowserRouter>
+  <Routes>
+    <Route path="/" element={<Layout />}>
+      <Route index element={<Home />} />
+      <Route path="team" element={<Team />} />
 
-          {/* ---- Programes main + subpages ---- */}
-          <Route path="programes" element={<Programes />}>
-            <Route path="foodbev" element={<Foodbev />} />
-            <Route path="dgrv" element={<DGRV />} />
-            <Route path="learnership" element={<Learnership />} />
-            <Route path="furnlab" element={<Furnlab />} />
-            <Route path="swits" element={<Swits />} />
-            <Route path="pgeep" element={<PGEEP />} />
-            <Route path="uceni" element={<Uceni />} />
-          </Route>
+      {/* ---- Programes main + subpages ---- */}
+      <Route path="programes" element={<Programes />}>
+        <Route path="foodbev" element={<Foodbev />} />
+        <Route path="dgrv" element={<DGRV />} />
+        <Route path="learnership" element={<Learnership />} />
+        <Route path="furnlab" element={<Furnlab />} />
+        <Route path="swits" element={<Swits />} />
+        <Route path="pgeep" element={<PGEEP />} />
+        <Route path="uceni" element={<Uceni />} />
+      </Route>
 
-          <Route path="events" element={<Events />} />
-          <Route path="opportunities" element={<Opportunities />} />
-          <Route path="gallery" element={<Gallery />} />
-          <Route path="contacts" element={<Contacts />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+      <Route path="events" element={<Events />} />
+      <Route path="opportunities" element={<Opportunities />} />
+      <Route path="gallery" element={<Gallery />} />
 
-   </>
+      {/* ✅ Footer / Legal pages */}
+      <Route path="privacy" element={<Privacy />} />
+      <Route path="terms" element={<Terms />} />
+      <Route path="contact" element={<Contact />} />
+    </Route>
+  </Routes>
+</BrowserRouter>
+
   )
 }
 
