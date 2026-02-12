@@ -50,7 +50,7 @@ const Footer = () => {
             >
               Terms of Service
             </span>
-          <Link to="/contacts" style={styles.link}>Contact</Link>
+          
         </div>
 
         <p style={styles.copyright}>

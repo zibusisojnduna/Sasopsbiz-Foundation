@@ -1,10 +1,16 @@
 import furnlab from "../assets/IMG_0046.JPG"
 import furnlab2 from "../assets/IMG_0064.JPG"
+import furnlab3 from "../assets/furnlab.png"
+import seda from "../assets/seda-transparent.png"
 
 function Furnlab(){
     return(
         <section>
             <title>Sasopsbiz Furnlab</title>
+            <div style={{textAlign:"center"}}>
+                <img src={furnlab3} alt="furnlab3" style={{height:"25%", width:"25%", padding:"1%"}}></img>
+                <img src={seda} alt="seda" style={{height:"25%", width:"25%", padding:"1%"}}></img>
+            </div>
             <div style={{margin:"5%", padding:"5%", color:"black"}}>
                 <h2>Sasops Furnlab (Furniture Manufacturing Incubator)</h2>
                 <h3>Partner: SEDA | Participants: 45</h3>
