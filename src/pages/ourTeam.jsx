@@ -2,6 +2,7 @@ import fidzani from "../assets/Picsart_26-01-27_08-32-34-365.jpg.jpeg"
 import pumla from "../assets/Picsart_26-01-27_08-22-31-316.jpg.jpeg"
 import siphelele from "../assets/Siphelele.jpg"
 import stock from "../assets/placeholder.png"
+import nolufefe from "../assets/Picsart_26-01-27_08-27-41-746.jpg.jpeg"
 import phila from "../assets/Picsart_26-01-27_08-24-01-391.jpg.jpeg"
 import thabiso from "../assets/Picsart_26-01-27_08-19-12-147.jpg.jpeg"
 import zibusiso from "../assets/Picsart_26-01-27_08-28-45-486.jpg.jpeg"
@@ -10,19 +11,24 @@ import ProfileCard from "../components/teamCard"
 function Team(){
     const people =[
         {
-            name:"Fidzani Nduna",
-            title:"Director/Co-Founder",
-            image:fidzani,
-        },
-        {
             name:"Pumla Vilakazi",
             title:"CEO/Co-Founder",
             image:pumla,
         },
         {
+            name:"Fidzani Nduna",
+            title:"Director/Co-Founder",
+            image:fidzani,
+        },
+        {
             name:"Siphelele Kunene",
             title:"Office Admin",
             image:siphelele,
+        },
+        {
+           name:"Nolufefe Mbokazi",
+           title:"Admin Intern",
+           image:nolufefe, 
         },
         {
             name:"Phila Vilakazi",
@@ -38,17 +44,18 @@ function Team(){
             name:"Zibusiso Nduna",
             title:"IT/Finance",
             image:zibusiso,
-        },
+        }
+        
     ]
 
     const styles = {
     container: {
-      display: "flex",
-      gap: "20px",
-      justifyContent: "center",
-      flexWrap: "wrap",
-      marginTop: "40px",
-    },
+  display: "flex",
+  flexWrap: "wrap",
+  justifyContent: "center",
+  gap: "20px",
+}
+
   };
 
 

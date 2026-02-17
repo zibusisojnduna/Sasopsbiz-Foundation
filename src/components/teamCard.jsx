@@ -1,14 +1,14 @@
 const ProfileCard = ({name, title, image}) => {
   const styles = {
-    card: {
-      width: "250px",
-      padding: "20px",
-      borderRadius: "10px",
-      boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
-      textAlign: "center",
-      backgroundColor: "#fff",
-      margin: "20px auto",
-    },
+   card: {
+  width: "250px",
+  padding: "20px",
+  borderRadius: "10px",
+  boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
+  textAlign: "center",
+  backgroundColor: "#fff",
+}
+,
     image: {
       width: "130px",
       height: "150px",
