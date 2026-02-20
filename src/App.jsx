@@ -19,7 +19,6 @@ import Swits from './pages/swits'
 import Uceni from './pages/uceni'
 import Privacy from './pages/privacy';
 import Terms from './pages/terms';
-import Contact from './pages/contacts';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 function App() {
 
@@ -45,11 +44,11 @@ function App() {
       <Route path="events" element={<Events />} />
       <Route path="opportunities" element={<Opportunities />} />
       <Route path="gallery" element={<Gallery />} />
+      <Route path="contacts" element={<Contacts />} />
 
       {/* ✅ Footer / Legal pages */}
       <Route path="privacy" element={<Privacy />} />
       <Route path="terms" element={<Terms />} />
-      <Route path="contact" element={<Contact />} />
     </Route>
   </Routes>
 </BrowserRouter>
