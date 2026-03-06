@@ -15,6 +15,7 @@ function Navbar() {
     logo: {
       display: "flex",
       alignItems: "center",
+      width:"50%",
     },
     navLinks: {
       listStyle: "none",
@@ -56,7 +57,7 @@ function Navbar() {
 
   return (
     <nav style={styles.navbar}>
-      <div style={styles.logo}><img src={logo} alt="logo" style={{}}></img></div>
+      <div style={styles.logo}><img src={logo} alt="logo"></img></div>
       <ul style={styles.navLinks}>
         <li><Link to='/' style={styles.link}>Home</Link></li>
         <li><Link to='/team' style={styles.link}>Our Team</Link></li>
